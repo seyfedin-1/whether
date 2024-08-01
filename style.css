@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(194, 243, 138);
+}
+.card{
+    width: 25%;
+    background-color: rgb(156, 140, 245);
+    margin-left: 45%;
+    margin-top: 5%;
+    border-radius: 20px;
+    opacity: 50%;
+}
+.ser{
+    margin: 10px;
+    margin-left: 30px;
+    display: flex;
+
+}
+.ser input{
+    padding: 5px;
+    border-radius: 7px;
+    opacity: 70%;
+    width: 100%;
+    font-size: 15px;
+}
+.weather{
+    margin: 10px 50px;
+}
+.weather img{
+    width: 80%;
+}
+.weather h1 , h2{
+    text-align: center;
+    margin-left: 10px;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.col p{
+    margin-left: 15px;
+ padding: 5px;
+}
+.temp{
+    margin: 5px;
+    text-align: center;
+    color: antiquewhite;
+}
+.city{
+    text-align: center;
+    margin-bottom: 5px;
+    color: antiquewhite;
+}
